@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.child{
+  width: 650px;
+
+}
+
+.center h1{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(20, 99, 167);
+}
+
+.form{
+    padding-bottom: 15px;
+    margin: 0 20px;
+}
+
+.textfield,textarea{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin: 7px 0;
+}
+textarea {
+    height: 80px;
+}
+
+.btn{
+    width: 18%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    margin: 7px 4px;
+}
